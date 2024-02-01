@@ -386,7 +386,7 @@ body
   {
     background-color: transparent;
     background-image: url("Img3\paper icons8-hand-64 1.png"),
-      url("Img3/paper (2).png");
+      url("Img3\paper.png");
     background-repeat: no-repeat;
   
     background-position: center center; /* Adjust the position as needed */
@@ -508,7 +508,7 @@ body
   
     background-color: transparent;
     background-image: url("Img3\paper icons8-hand-64 1.png"),
-      url("../img/paper (2).svg"), url("../img/Ellipse 4.svg"),
+      url("Img3\paper.png"), url("Img3\Ellipse 4.png"),
       url("Img3\Ellipse 3.png"), url("Img3\Ellipse 5.png");
     background-repeat: no-repeat;
   
@@ -530,7 +530,7 @@ body
   
     background-color: transparent;
     background-image: url("Img3\rock icons8-f.png"), url("Img3\rock.png"),
-    url("../img/Ellipse 4.svg"),
+    url("Img3/Ellipse 4.png"),
     url("Img3\Ellipse 3.png"), url("Img3\Ellipse 5.png");
     background-repeat: no-repeat;
   
@@ -576,12 +576,12 @@ body
   
   .result-section 
   {
-    /* display: flex;
+     display: flex;
       justify-content: center;
       align-items: center;
       align-content: center;
     width: 100%;
-    position: fixed; */
+    position: fixed; 
   
     display: flex;
       grid-template-columns: 1fr 200px 1fr;
@@ -618,37 +618,37 @@ body
   
   .result-item1
   {
-    /* height: 138px; */
+     height: 138px; 
     display: inline-block;
-    /* transform: translatex(0px) translatey(39px); */
-    /* position: relative; */
-    /* top: 91px; */
-    /* top: 106px; */
+     transform: translatex(0px) translatey(39px); 
+     position: relative; 
+     top: 91px; 
+     top: 106px; 
   }
   
   .result-item2 
   {
-    /* height: 138px; */
+     height: 138px; 
     display:inline-block;
-    /* transform:translatex(0px) translatey(-139px); */
-      /* transform: translatex(0px) translatey(39px); */
-    /* position: relative; */
-    /* bottom: 121px; */
-    /* top: 91px; */
-    /* transform:translatex(0px) translatey(-111px); */
+     transform:translatex(0px) translatey(-139px); 
+       transform: translatex(0px) translatey(39px); 
+     position: relative; 
+     bottom: 121px; 
+     top: 91px; 
+     transform:translatex(0px) translatey(-111px); 
   
   }
   
   .result-item3 
   {
     display: inline-block;
-    /* height: 142px; */
-    /* position: relative; */
-    /* top: 9px; */
-    /* left: 5px; */
-    /* bottom: 121px; */
-    /* position: fixed; */
-    /* transform:translatex(0px) translatey(-111px); */
+     height: 142px; 
+     position: relative; 
+     top: 9px; 
+     left: 5px; 
+     bottom: 121px; 
+     position: fixed; 
+     transform:translatex(0px) translatey(-111px); 
   }
   
   .text-chng
